@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Lenovo\Desktop\Electrify\Elxect.jar</jar>
+  <outfile>C:\Users\Lenovo\Desktop\Electrify\Electrify.exe</outfile>
+  <errTitle>Download Latest Java</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl>https://github.com/GittySam72/Electrify</supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Lenovo\Desktop\iconapp.ico</icon>
+  <classPath>
+    <mainClass>elxect.Explore</mainClass>
+    <cp>lib/AbsoluteLayout.jar</cp>
+    <cp>lib/mysql-connector-java-8.0.21.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>Electrify Application</fileDescription>
+    <copyright>Open Source</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>Electrify</productName>
+    <companyName>BitTeam</companyName>
+    <internalName>Elxect</internalName>
+    <originalFilename>Electrify.exe</originalFilename>
+    <trademarks>@BitTeam2020</trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
